@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+                 <!-- Pestaña 2 -->
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <!-- Contenido pestaña 2 -->
+
+                    <ScrollView
+                        android:id="@+id/scroll2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:id="@+id/linearLayout2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical" >
+
+                            <Button
+                                android:id="@+id/button21"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="@string/sound21"
+                                android:textColor="#FFFFFFFF"
+                                android:background="@drawable/toggle_button" />
+
+                            <Button
+                                android:id="@+id/button22"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/sound22"
+                                android:textColor="#FFFFFFFF"
+                                android:background="@drawable/toggle_button" />
+
+                            <Button
+                                android:id="@+id/button23"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/sound23"
+                                android:textColor="#FFFFFFFF"
+                                android:background="@drawable/toggle_button" />
+
+                            <Button
+                                android:id="@+id/button24"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/sound24" 
+                                android:textColor="#FFFFFFFF"
+                                android:background="@drawable/toggle_button"/>
+
+                            <Button
+                                android:id="@+id/button25"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/sound25"
+                                android:textColor="#FFFFFFFF"
+                                android:background="@drawable/toggle_button" />
+
+                            <Button
+                                android:id="@+id/button26"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/sound26"
+                                android:textColor="#FFFFFFFF"
+                                android:background="@drawable/toggle_button" />
+                        </LinearLayout>
+                    </ScrollView>
+                    
+                    <!-- Fin del contenido pestaña 2 -->
+
+                </LinearLayout>
+                <!-- FIN pestaña 2 -->
+
+</LinearLayout>
